@@ -1,7 +1,7 @@
 import { auth, db } from "../../lib/firebase";
 import "./detail.css"
-import { useUserStore } from "../../lib/userStore";
-import { useChatStore } from "../../lib/userStore";
+import  useUserStore  from "../../lib/userStore";
+import  useChatStore  from "../../lib/userStore";
 import {arrayRemove, arrayUnion, doc, updateDoc} from "firebase/firestore";
 const Detail = () => {
   const { chatId, user, isCurrentUserBlocked, isReceiverBlocked, changeBlock } =

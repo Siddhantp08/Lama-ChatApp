@@ -1,4 +1,4 @@
-import { useUserStore } from "../../../lib/userStore"
+import  useUserStore  from "../../../lib/userStore"
 import "./userInfo.css"
 const Userinfo = () => {
 

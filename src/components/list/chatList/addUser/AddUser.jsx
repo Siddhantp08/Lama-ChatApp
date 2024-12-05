@@ -2,7 +2,7 @@ import { arrayUnion, collection, doc, getDoc, getDocs, query, serverTimestamp, s
 import "./addUser.css"
 import { db } from "../../../../lib/firebase"
 import { useState } from "react"
-import { useUserStore} from "../../../../lib/userStore"
+import  useUserStore from "../../../../lib/userStore"
 
 const AddUser = () => {
 

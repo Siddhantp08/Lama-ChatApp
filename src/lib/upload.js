@@ -25,8 +25,8 @@ const upload = async (file) =>{
         });
       }
     )
-  )
+  );
 
-}
+};
 
-export default upload
+export default upload;
